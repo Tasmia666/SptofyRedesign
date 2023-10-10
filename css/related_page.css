@@ -1,0 +1,207 @@
+body {
+    background-image: url('../photos/oliviasback.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+i {
+    color: white;
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+.active {
+    font-size: 27px;
+    color: white !important;
+    margin-top: 10px;
+}
+
+.hr_nav_icone {
+    margin-top: 10px !important;
+}
+
+.menu-icon {
+    font-size: 40px !important;
+}
+
+.hr-menu {
+    margin: 20px 15px;
+    color: lightgray;
+}
+
+.navbar-text {
+    color: white;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.fa-house {
+    color: #1ED760;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.olivas_photo {
+    width: 180PX;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.fa-certificate {
+    font-size: 16px;
+}
+
+.listeners {
+    color: white;
+    line-height: 0px;
+}
+
+.pause-icon {
+    color: #1ED760;
+    margin-right: 20px;
+}
+
+.follow_btn {
+    background-color: #1ED760;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+
+.songname p {
+    color: white;
+    line-height: 5px;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+.related-imgs img {
+    width: 100px;
+    height: 100px;
+}
+
+.song-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.songs_list {
+    margin-top: 40px;
+}
+
+.song_duration {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.album-overview-section {
+    color: white;
+    margin-top: 40px;
+}
+
+.related-artist {
+    color: #1ED760;
+}
+
+h6 {
+    cursor: pointer;
+}
+
+.attach-page {
+    text-decoration: none;
+    color: white;
+}
+
+.song-img-over {
+    margin-top: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.songslist p {
+    line-height: 10px;
+    margin-top: 12px;
+}
+
+.song-time-limit {
+    margin-left: 170px;
+    margin-top: 18px;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.player-text {
+    color: white;
+}
+
+.progress {
+    width: 260px;
+}
+
+.playler-icons {
+    font-size: 17px !important;
+}
+
+.pasuse-footer-icon{
+    font-size: 60px !important;
+    color: #1ED760;
+}
+
+.footer-section {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 576px) {
+    .first_songs_list_img {
+        margin-right: 20px;
+        font-size: 10px;
+        margin-left: -70px;
+    }
+
+    .pre-next-icon {
+        display: none;
+    }
+
+    .olivas_photo {
+        margin-left: -50px;
+    }
+
+    .oliva-discrip {
+        margin-left: -40px;
+    }
+
+    .songslist {
+        width: 200px !important;
+    }
+
+    .inmore-option {
+        display: none;
+    }
+
+    .playler-icons {
+        font-size: 10px;
+    }
+
+    .navbar-brand {
+        margin-right: 10px !important;
+    }
+
+    .fa-circle-pause {
+        font-size: 24px !important;
+    }
+
+    .progress {
+        width: 220px;
+    }
+}

@@ -1,0 +1,195 @@
+body {
+    background-color: #2A2A2A;
+}
+
+i {
+    color: white;
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+.active {
+    font-size: 27px;
+    color: white !important;
+    margin-top: 10px;
+}
+
+.hr_nav_icone {
+    margin-top: 10px !important;
+}
+
+.menu-icon {
+    font-size: 40px !important;
+}
+
+.hr-menu {
+    margin: 20px 15px;
+    color: lightgray;
+}
+
+.navbar-text {
+    color: white;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.fa-house {
+    color: #1ED760;
+}
+
+.album_title {
+    color: white;
+    margin-left: 40px;
+}
+
+.flex-container {
+    display: flex;
+ }
+  /* body {
+    position: relative;
+    height: 100%;
+  } */
+
+  /* body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  } */
+
+  .swiper {
+    width: 100%;
+    height: 70%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 15px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 300px !important; 
+    margin-right: -38px !important;
+    margin-top: -60px;
+  }
+
+  .buttons-slide {
+    margin-top: -100px !important;
+  }
+
+  .swiper-slide .card-img-top {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .buttons-slide {
+    margin-top: -100px !important;
+  }
+
+  .card-img-top{
+     width: 220px !important;
+  }
+
+.card {
+    border: none;
+    background-color: #2A2A2A;
+    background: none;
+}
+
+/* .first_slide_card {
+    margin-top: 70px !important;
+} */
+
+/* .sec_slide_card {
+    margin-top: 150px !important;
+} */
+
+.card-img-top {
+    border-radius: 10px;
+    height: 230px;
+}
+
+.card-text {
+    color: white;
+}
+
+.progress {
+    width: 260px;
+}
+
+.playler-icons {
+    font-size: 17px !important;
+}
+
+.container-fluid{
+    background-color: #2A2A2A;
+}
+
+.player-text {
+    color: white;
+}
+
+.fa-circle-pause{
+    font-size: 60px !important;
+    color: #1ED760;
+}
+
+.footer-section {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.more-option-on-plyer {
+    color: white;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.attach-page {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 567px) {
+    .inmore-option {
+        display: none;
+    }
+
+    .playler-icons {
+        font-size: 10px;
+    }
+
+    .navbar-brand {
+        margin-right: 10px !important;
+    }
+
+    .fa-circle-pause {
+        font-size: 24px !important;
+    }
+
+    .progress {
+        width: 220px;
+    }
+
+}
+
+@media screen and (min-width: 567px) and (max-width: 1400px) {
+    .more-option-on-plyer {
+        display: none;
+    }
+}
